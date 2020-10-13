@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+h4 {
+    font-size: 13px;
+    margin: 0 20px 0 0;
+    font-weight: 500;
+    color: #b64884;
+}
+p {
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+label {
+    float: left;
+    font-weight: 700;
+}
+input[type="text1"], input[type="text2"], input[type="text3"], input[type="text4"], textarea {
+    max-width: 750px;
+    padding: 10px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    border-radius: 5px;
+    margin: 5px 0 40px 0;
+    float: left;
+}
+select {
+    max-width: 750px;
+    padding: 9px 10px;
+    border: 1px rgb(194, 194, 194) solid;
+    box-shadow: 0 1px 3px rgb(150, 150, 150, 0.5);
+    border-radius: 5px;
+    margin: 5px 0 40px 0;
+    float: left;
+}
+input[type="text1"] {
+    width: 710px;
+}
+input[type="text2"]{
+    width: 150px;
+    float: left;
+    clear: both;
+}
+input[type="text3"], select[name="berat"], select[name="panjang"]{
+    width: 99px;
+    margin-right: 10px;
+}
+input[type="text4"]{
+    width: 120px;
+    float: left;
+    clear: both;
+}
+select[name="kategori"] {
+    width: 730px;
+}
+select[name="harga"] {
+    width: 150px;
+    margin: 5px 0 0 10px;
+    float: left;
+}
+select[name="negara"] {
+    width: 200px;
+}
+textarea {
+    width: 710px;
+    height: 120px;
+    float: left;
+}
+body {
+    background: linear-gradient(#45046a 10%, #5c2a9d 80%) ;
+}
+.konten {
+    width: 750px;
+    height: auto;
+    display: block;
+    background: #ffff;
+    box-shadow: 0 0 20px rgb(150, 150, 150, 0.4);
+    padding: 0 10px 10px 30px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+.konten-isi h2{
+    padding: 30px 0 30px 0;
+}
+.konten-isi p:nth-child(2){
+    line-height: 25px;
+    width: 730px;
+}
+.konten-isi h3{
+    margin: 40px 0 -5px 0;
+}
+.form {
+    margin: 30px 0 0 0;
+    clear: both;
+}
+.form:nth-child(4) h4 {
+    text-align: right;
+}
+.form:nth-child(5) h4 {
+    text-align: right;
+}
+.form:nth-child(7) h4 {
+    margin: 0 88px 0 20px;
+    float: left;
+}
+.form:nth-child(8) label:first-child {
+    margin: 0 80px 0 0;
+}
+.form:nth-child(8) h4 {
+    text-align: right;
+}
+.form:nth-child(10) label:first-child{
+    margin: 0 25px 0 0;
+}
+.tambah {
+    width: 150px;
+    height: 150px;
+    background: #ffff;
+    box-shadow: 0 1px 4px rgb(150, 150, 150, 0.7);
+    border-radius: 10px;
+    margin: 10px 0 30px 0;
+    float: left;
+}
+.tambah img{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    cursor: pointer;
+}
+.tambah>input {
+    display: none;
+}
+.form:nth-child(12) h4 {
+    margin: 10px 0 0 10px;
+    float: left;
+}
+.button {
+    clear: both;
+}
+input[type="submit"], input[type="reset"] {
+    padding: 10px;
+    margin: 20px 10px 20px 0;
+    width: 200px;
+    height: auto;
+    background-color: #ffff;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 1px 4px rgb(150, 150, 150, 0.8);
+    font-weight: bold;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    padding: 10px;
+    margin: 20px 10px 20px 0;
+    width: 200px;
+    height: auto;
+    background-color: #6a2c70;
+    color: #ffff;
+    border-radius: 7px;
+    border: none;
+    box-shadow: none;
+    font-weight: bold;
+}
+::placeholder {
+    color:  rgb(197, 197, 197);
+    font-family: 'Montserrat', sans-serif;
+}
+.berat-panjang {
+    float: left;
+}

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+}
+.logo-kiri, .tengah, .logo-kanan img{
+    float: left;
+}
+.header-atas {
+    padding: 10px 0 0 0;
+}
+.Header {
+    width: 1000px;
+    height: 150px;
+    background: linear-gradient(#ffff 30%, #fff5e7 30%);
+    position: relative;
+    margin: 0 auto;
+}
+.center {
+    width: 1000px;
+    height: auto;
+}
+.logo-kiri img{
+    width: 170px;
+    height: auto;
+    margin: 15px 20px 0px 20px;
+}
+.garis-bawah{
+    width: 210px;
+    height: 7px;
+    background-color: #6a2c70;
+    display: block;
+    margin: 13px 0 0 0;
+}
+.tengah {
+    position: relative;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: 53px 0 0 0; 
+}
+.tengah p:nth-child(2) {
+    border-bottom: 3px #c4c4c4 solid;
+    width: 60px;
+    margin: 10px auto;
+}
+.tengah p:last-child {
+    font-size: 10px;
+    font-weight: 900;
+}
+.logo-kanan {
+    float: right;
+    margin: 60px 20px 0 0;
+}
+.logo-kanan img{
+    width: 170px;
+    height: auto;
+}
+.Konten {
+    width: 1000px;
+    height: 475px;
+    margin : auto;
+    background: linear-gradient(#ffff 40%, #fff5e7 40%);
+    display: block;
+}
+.konten-isi {
+    padding-top: 40px;
+}
+.buy *{
+    box-sizing: border-box;
+    float: left;
+}
+.buy {
+    width: 350px;
+    height: auto;
+    margin: auto;
+    color: rgb(182, 182, 182);
+}
+.buy h2{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0 10px 0 10px;
+}
+.garis {
+    width: 70px;
+    height: 1px;
+    background: rgb(218, 218, 218);
+    display: block;
+    position: relative;
+    margin: 18px 0 0 0;
+}
+.kotak {
+    clear: both;
+}
+.kotak1 {
+    float: left;
+}
+.kotak1 {
+    box-sizing: border-box;
+    width: 320px;
+    height: 320px;
+    margin: 20px 0 0 5px;
+}
+.kotak-isi {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+.kotak-isi img {
+    width: 150px;
+    height: auto;
+    margin: 0 70px;
+}
+.kotak-isi h3 {
+    text-align: center;
+    margin: 30px 0 10px 0;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.kotak-isi p {
+    margin: 15px 0 15px 0;
+    text-align: center;
+    line-height: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
